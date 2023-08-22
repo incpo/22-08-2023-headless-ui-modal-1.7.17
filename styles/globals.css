@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded w-24 items-center bg-white/30 px-2 py-1 shadow-white/20 shadow-md text-sky-500 hover:bg-white/40 ease-in duration-150 font-medium;
+}
